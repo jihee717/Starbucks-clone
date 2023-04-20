@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* NanumBarunGothic 기본 폰트 */
+@font-face{
+    font-family: 'nbg';
+    src: url('fonts/NanumBarunGothic.eot')format('eot');
+    src: url('fonts/NanumBarunGothic.woff') format('woff');
+    }
+    /* NanumBarunGothic 굵은 폰트 */
+    @font-face{
+    font-family: 'nbg_Bold';
+    src: url('fonts/NanumBarunGothicBold.eot')format('eot');
+    src: url('fonts/NanumBarunGothicBold.woff') format('woff');
+    }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'nbg', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+    font-size: 1em;
+    line-height: 1;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+
+nav ul, li{
+    list-style:none;
+    }
+
+input {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    vertical-align: top;
+    border-radius: 0;
+    font-family: 'nbg', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+}
+::-moz-input-placeholder, ::-moz-textarea-placeholder{
+    color:#3f51b5;
+    }
+    
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder{
+    color:#3f51b5;
+    }    
+    
+img {
+    vertical-align: top;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a{text-decoration: none;}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.ally{
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    position: absolute;
+}
